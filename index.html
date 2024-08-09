@@ -31,8 +31,8 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
-    <h1>Hi, I'm Sanjeev Kumar Das!</h1>
-    <h2>I am a Software Developer</h2>
+    <h1>Hi, I'm Sanjeev Kumar Das !</h1>
+    <h2>I am a <span id="typing-effect"></span></h2>
     <a href="#about" class="btn-get-started scrollto"><i class="bi bi-chevron-double-down"></i></a>
   </section><!-- End Hero -->
 
@@ -681,6 +681,24 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var options = {
+        strings: ["Software Developer", "UI/UX Designer", "Front-End Developer", "Back-End Developer"],
+        typeSpeed: 50, // Speed at which each character is typed in milliseconds
+        backSpeed: 50, // Speed at which each character is deleted in milliseconds
+        backDelay: 2000, // Time before starting to delete the text
+        startDelay: 500, // Delay before typing starts
+        loop: true, // Loop through the strings
+        showCursor: true, // Show the cursor
+        cursorChar: '|', // Character for cursor
+      };
+
+      var typed = new Typed('#typing-effect', options);
+    });
+  </script>
 
 </body>
 

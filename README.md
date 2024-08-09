@@ -4,7 +4,7 @@ Welcome to my portfolio website! This project showcases my skills and projects u
 
 ## Preview
 
-You can view the live preview of the website here [Portfolio-Website](https://your-portfolio-url.com).
+You can view the live preview of the website here [Portfolio-Website](https://sanjeev-live.netlify.app).
 
 ## Features
 
@@ -41,4 +41,5 @@ To run this project locally, follow these steps:
 
 
 ## Contact
-Feel free to reach out if you have any questions or feedback. You can contact me at [Crisiscrush525@gmail.com].
+Feel free to reach out if you have any questions or feedback. You can contact me at <br> Email : Crisiscrush525@gmail.com.
+<br> Contact : 7018021841
