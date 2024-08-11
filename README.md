@@ -4,6 +4,8 @@ Welcome to my portfolio website! This project showcases my skills and projects u
 
 ## Preview
 
+<img align="center" alt="Sample Preview" src="assets/img/preview.png">
+
 You can view the live preview of the website here [Portfolio-Website](https://sanjeev-live.netlify.app).
 
 ## Features
